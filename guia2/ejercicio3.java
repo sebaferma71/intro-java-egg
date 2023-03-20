@@ -5,9 +5,11 @@ import java.util.Scanner;
 public class ejercicio3 {
     
     public static void main(String[] args) {
+        String frase;
+
         try(Scanner leer = new Scanner(System.in)) {
             System.out.println("Ingrese una frase:");
-            String frase = leer.nextLine();
+            frase = leer.nextLine();
 
             System.out.println("Frase en mayusculas:");
             System.out.println(frase.toUpperCase());
