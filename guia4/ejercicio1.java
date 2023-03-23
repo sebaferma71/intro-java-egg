@@ -1,11 +1,11 @@
-package guia3;
+package guia4;
 
 import java.util.Scanner;
 
-public class ejercicio6 {
+public class ejercicio1 {
     
     public static void main(String[] args) {
-        int num1, num2, opcion, resultado;
+        int num1, num2, opcion;
         char rta;
 
         try (Scanner leer = new Scanner(System.in)) {
@@ -15,7 +15,9 @@ public class ejercicio6 {
             System.out.println("Ingrese otro numero entero positivo:");
             num2 = leer.nextInt();
 
-            do {
+            opcion = 0;
+
+            while (opcion != 5) {
                 System.out.println("----------------");
                 System.out.println("1 - Sumar");
                 System.out.println("2 - Restar");
@@ -28,28 +30,30 @@ public class ejercicio6 {
 
                 switch (opcion) {
                     case 1:
-                        resultado = num1 + num2;
-                        System.out.println("La suma es: " + resultado);
+                        clearScreen();
+                        System.out.println("La suma es: " + Suma(num1, num2));
                         break;
                     case 2:
-                        resultado = num1 - num2;
-                        System.out.println("La resta es: " + resultado);
+                        clearScreen();
+                        System.out.println("La resta es: " + Resta(num1, num2));
                         break;
                     case 3:
-                        resultado = num1 * num2;
-                        System.out.println("La multiplicacion es: " + resultado);
+                        clearScreen();
+                        System.out.println("La multiplicacion es: " + Multiplicacion(num1, num2));
                         break;
                     case 4:
-                        resultado = num1 / num2;
-                        System.out.println("La division es: " + resultado);
+                        clearScreen();
+                        System.out.println("La division es: " + Division(num1, num2));
                         break;
                     case 5:
+                        clearScreen();
                         System.out.println("¿Seguro desea salir? S/N");
                         do {
                             rta = leer.next().toUpperCase().charAt(0);
                         } while (rta == 'S' && rta == 'N');
 
                         if (rta == 'S') {
+                            clearScreen();
                             System.out.println("Saliendo...");
                         }
                         else {
@@ -59,7 +63,28 @@ public class ejercicio6 {
                     default:
                         break;
                 }
-            } while (opcion != 5);
+            }
         }
+    }
+
+    public static int Suma(int n1, int n2) {
+        return n1 + n2;
+    }
+
+    public static int Resta(int n1, int n2) {
+        return n1 - n2;
+    }
+
+    public static int Multiplicacion(int n1, int n2) {
+        return n1 * n2;
+    }
+
+    public static int Division(int n1, int n2) {
+        return n1 / n2;
+    }
+
+    public static void clearScreen() {  
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
     }
 }
