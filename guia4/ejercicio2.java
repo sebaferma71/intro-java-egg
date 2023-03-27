@@ -15,15 +15,16 @@ public class ejercicio2 {
             String[] nombre = new String[n];
             int[] edad = new int[n];
 
-            InicializarDatos(nombre);
+            InicializarDatos(nombre, edad);
             CargarDatos(nombre, edad, leer);
             MostrarDatos(nombre, edad);
         }
     }
 
-    public static void InicializarDatos(String[] name) {
+    public static void InicializarDatos(String[] name, int[] age) {
         for (int i = 0; i < name.length; i++) {
             name[i] = "";
+            age[i] = 0;
         }
     }
 
