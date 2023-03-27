@@ -61,6 +61,8 @@ public class ejercicio1 {
                         }
                         break;
                     default:
+                        clearScreen();
+                        System.out.println("Opcion no valida");
                         break;
                 }
             }
