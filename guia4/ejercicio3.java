@@ -21,13 +21,13 @@ public class ejercicio3 {
 
     public static void ConvertirA(char m, int cant) {
         if (m == 'D') {
-            System.out.println(cant * 1.28611 + " DOLARES son " + cant + " EUROS");	
+            System.out.println((cant * 1.28611) + " DOLARES son " + cant + " EUROS");
         }
         else if (m == 'Y') {
-            System.out.println(cant * 129.852 + " YENES son " + cant + " EUROS");
+            System.out.println((cant * 129.852) + " YENES son " + cant + " EUROS");
         }
         else if (m == 'L') {
-            System.out.println(cant * 0.86 + " LIBRAS son " + cant + " EUROS");
+            System.out.println((cant * 0.86) + " LIBRAS son " + cant + " EUROS");
         }
     }
 }
