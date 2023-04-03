@@ -26,6 +26,8 @@ public class ejercicio6 {
                 System.out.print("Elija opcion: ");
                 opcion = leer.nextInt();
 
+                leer.nextLine(); // Consumir el final de linea del int para que el nextLine() siguiente no de error
+
                 switch (opcion) {
                     case 1:
                         resultado = num1 + num2;

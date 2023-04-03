@@ -12,6 +12,8 @@ public class ejercicio2 {
             System.out.println("Ingrese la cantidad de personas a cargar:");
             n = leer.nextInt();
 
+            leer.nextLine(); // Consumir el final de linea del int para que el nextLine() siguiente no de error
+
             String[] nombre = new String[n];
             int[] edad = new int[n];
 
@@ -33,16 +35,18 @@ public class ejercicio2 {
 
         for (int i = 0; i < name.length; i++) {
             System.out.println("Ingrese el nombre de la persona " + (i+1) + ":");
-            name[i] = leer.next();
+            name[i] = leer.nextLine();
 
             System.out.println("Ingrese la edad de " + name[i] + ":");
             age[i] = leer.nextInt();
 
+            leer.nextLine(); // Consumir el final de linea del int para que el nextLine() siguiente no de error
 
-            if (i != name.length) {
+
+            if (i != name.length-1) {
                 System.out.println("Desea ingresar otra persona? (Si / No) ");
                 do {
-                    seguir = leer.next().toUpperCase();
+                    seguir = leer.nextLine().toUpperCase();
                 } while(seguir.equals("SI") && seguir.equals("NO"));
                 
 

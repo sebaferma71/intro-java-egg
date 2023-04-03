@@ -28,6 +28,8 @@ public class ejercicio1 {
                 System.out.print("Elija opcion: ");
                 opcion = leer.nextInt();
 
+                leer.nextLine(); // Consumir el final de linea del int para que el nextLine() siguiente no de error
+
                 switch (opcion) {
                     case 1:
                         clearScreen();
@@ -49,7 +51,7 @@ public class ejercicio1 {
                         clearScreen();
                         System.out.println("¿Seguro desea salir? S/N");
                         do {
-                            rta = leer.next().toUpperCase().charAt(0);
+                            rta = leer.nextLine().toUpperCase().charAt(0);
                         } while (rta == 'S' && rta == 'N');
 
                         if (rta == 'S') {

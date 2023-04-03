@@ -12,8 +12,10 @@ public class ejercicio3 {
             System.out.println("Ingrese la cantidad de euros a convertir:");
             euros = leer.nextInt();
 
+            leer.nextLine(); // Consumir el final de linea del int para que el nextLine() siguiente no de error
+
             System.out.println("Ingrese la moneda: (D - Dolares / Y - Yenes / L - Libras)");
-            moneda = leer.next().toUpperCase().charAt(0);
+            moneda = leer.nextLine().toUpperCase().charAt(0);
 
             ConvertirA(moneda, euros);
         }
