@@ -1,4 +1,7 @@
 # Introducción a Java
+
+![](https://img.shields.io/badge/Sebastián-EGG-yellow.svg)
+
 ## Ejercicios
 - Ejercicios de Java realizados en el curso de "Introducción a Java" dictado por Egg Cooperation.
 - Organizados por guía:
