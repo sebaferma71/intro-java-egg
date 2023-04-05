@@ -1,15 +1,17 @@
 package guia7.ejercicio3;
 
+import java.util.Scanner;
+
 public class Operacion {
     
     private int num1, num2;
 
+    public Operacion() {
+    }
+
     public Operacion(int num1, int num2) {
         this.num1 = num1;
         this.num2 = num2;
-    }
-
-    public Operacion() {
     }
 
     public int getNumero1() {
@@ -42,5 +44,15 @@ public class Operacion {
 
     public double dividir() {
         return (double)(num1/num2);
+    }
+
+    public void crearOperacion() {
+        try (Scanner leer = new Scanner(System.in)) {
+            System.out.println("Ingrese el primer numero para operar:");
+            this.num1 = leer.nextInt();
+
+            System.out.println("Ingrese el primer numero para operar:");
+            this.num2 = leer.nextInt();
+        }
     }
 }

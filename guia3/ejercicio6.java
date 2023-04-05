@@ -48,7 +48,7 @@ public class ejercicio6 {
                     case 5:
                         System.out.println("¿Seguro desea salir? S/N");
                         do {
-                            rta = leer.next().toUpperCase().charAt(0);
+                            rta = leer.nextLine().toUpperCase().charAt(0);
                         } while (rta == 'S' && rta == 'N');
 
                         if (rta == 'S') {

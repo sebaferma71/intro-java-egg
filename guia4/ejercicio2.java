@@ -42,7 +42,6 @@ public class ejercicio2 {
 
             leer.nextLine(); // Consumir el final de linea del int para que el nextLine() siguiente no de error
 
-
             if (i != name.length-1) {
                 System.out.println("Desea ingresar otra persona? (Si / No) ");
                 do {

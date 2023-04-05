@@ -1,10 +1,15 @@
 package guia7.ejercicio2;
 
+import java.util.Scanner;
+
 public class Circunferencia {
     
     private double radio;
 
-    public Circunferencia(double radio) {
+    Circunferencia() {
+    }
+
+    Circunferencia(double radio) {
         this.radio = radio;
     }
 
@@ -22,5 +27,12 @@ public class Circunferencia {
 
     public double perimetro() {
         return 2 * Math.PI * this.radio;
+    }
+
+    public void crearCircunferencia() {
+        try (Scanner leer = new Scanner(System.in)) {
+            System.out.println("Escribe el radio de la circunferencia:");
+            this.radio = leer.nextDouble();
+        }
     }
 }

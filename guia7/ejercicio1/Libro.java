@@ -7,14 +7,14 @@ public class Libro {
     private String autor;
     private int paginas;
 
-    public Libro(int isbn, String titulo, String autor, int paginas) {
+    Libro() {
+    }
+
+    Libro(int isbn, String titulo, String autor, int paginas) {
         this.isbn = isbn;
         this.titulo = titulo;
         this.autor = autor;
         this.paginas = paginas;
-    }
-
-    public Libro() {
     }
 
     public void setLibro(int isbn, String titulo, String autor, int paginas) {
