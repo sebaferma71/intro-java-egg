@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Juego {
 
-    private String jugador1, jugador2;
-    private int numero, intentos, contIntentos, prueba;
+    private String jugador1, jugador2, seguir;
+    private int numero, intentos, contIntentos, prueba, ganaJ1, ganaJ2;
     private boolean ganar;
 
     Juego() {
@@ -38,6 +38,14 @@ public class Juego {
         this.prueba = prueba;
     }
 
+    public void setGanaJ1(int ganaJ1) {
+        this.ganaJ1 = ganaJ1;
+    }
+
+    public void setGanaJ2(int ganaJ2) {
+        this.ganaJ2 = ganaJ2;
+    }
+
     public void setGanar(boolean ganar) {
         this.ganar = ganar;
     }
@@ -58,41 +66,78 @@ public class Juego {
         return numero;
     }
 
+    public boolean getGanar() {
+        return ganar;
+    }
+
     public int getPrueba() {
         return prueba;
     }
 
+    public int getGanaJ1() {
+        return ganaJ1;
+    }
+
+    public int getGanaJ2() {
+        return ganaJ2;
+    }
+
     public void iniciar_juego() {
         try (Scanner leer = new Scanner(System.in)) {
-            System.out.println(this.jugador1 + " elige un numero para que " + this.jugador2 + " adivine:");
-            this.numero = leer.nextInt();
-
-            Core.clearScreen();
-            this.contIntentos = 0;
-            this.ganar = false;
+            this.setJugador1("Sebastian");
+            this.setJugador2("Matias");
+            this.setIntentos(5);
 
             do {
-                this.contIntentos++;
-                System.out.print("Prueba suerte: ");
-                this.prueba = leer.nextInt();
-                if (this.prueba < this.numero) {
-                    System.out.println("El numero es mas alto");
-                }
-                else if (this.prueba > this.numero) {
-                    System.out.println("El numero es mas bajo");
+                Core.clearScreen();
+                
+                System.out.println(this.jugador1 + " elige un numero para que " + this.jugador2 + " adivine:");
+                this.numero = leer.nextInt();
+
+                Core.clearScreen();
+                this.contIntentos = 0;
+                this.ganar = false;
+
+                do {
+                    this.contIntentos++;
+                    System.out.print("Prueba suerte: ");
+                    this.prueba = leer.nextInt();
+                    if (this.prueba < this.numero) {
+                        System.out.println("El numero es mas alto");
+                    }
+                    else if (this.prueba > this.numero) {
+                        System.out.println("El numero es mas bajo");
+                    }
+                    else {
+                        this.ganar = true;
+                    }
+                } while (this.ganar == false && this.contIntentos < this.intentos);
+                
+                if (this.ganar == true) {
+                    this.ganaJ2 += 1;
                 }
                 else {
-                    this.ganar = true;
+                    this.ganaJ1 += 1;
                 }
-            } while (this.ganar == false && this.contIntentos < this.intentos);
-            
-            Core.clearScreen();
-            if (this.ganar == true) {
-                System.out.println("Ganaste!");
-            }
-            else {
-                System.out.println("Perdiste!");
-            }
+
+                Core.clearScreen();
+
+                if (this.getGanar() == true) {
+                    System.out.println("Ganaste!");
+                }
+                else {
+                    System.out.println("Perdiste!");
+                }
+
+                System.out.println("El jugador 1 gano: " + this.getGanaJ1());
+                System.out.println("El jugador 2 gano: " + this.getGanaJ2());
+
+                System.out.println();
+                System.out.println("¿Queres jugar de nuevo? (S/N)");
+                do {
+                    this.seguir = leer.nextLine().toUpperCase();
+                } while (!this.seguir.equals("S") && !this.seguir.equals("N"));
+            } while (this.seguir.equals("S"));
         }
     }
 }
