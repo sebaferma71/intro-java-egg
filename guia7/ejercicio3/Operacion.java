@@ -39,11 +39,20 @@ public class Operacion {
     }
 
     public int multiplicar() {
+        if (num1 == 0 || num2 == 0) {
+            System.out.println("Error. Cero detectado en la multiplicacion");
+        }
         return num1 * num2;
     }
 
     public double dividir() {
-        return (double)(num1/num2);
+        if (num2 != 0) {
+            return (double)(num1/num2);
+        }
+        else {
+            System.out.println("Error. Cero detectado en la division");
+            return 0;
+        }
     }
 
     public void crearOperacion() {
