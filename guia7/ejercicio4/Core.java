@@ -9,5 +9,9 @@ public class Core {
 
         System.out.println("La superficie es: " + rect.superficie());
         System.out.println("El perimetro es: " + rect.perimetro());
+
+        System.out.println();
+
+        rect.crearRectanguloAsteriscos();
     }
 }

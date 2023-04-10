@@ -47,4 +47,13 @@ public class Rectangulo {
     public int perimetro() {
         return (base + altura) * 2;
     }
+
+    public void crearRectanguloAsteriscos() {
+        for (int i = 0; i < this.altura; i++) {
+            for (int j = 0; j < this.base; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
 }
