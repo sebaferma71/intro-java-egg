@@ -1,4 +1,4 @@
-package guia7.ejercicio1;
+package src.guia7.ejercicio1;
 
 import java.util.Scanner;
 

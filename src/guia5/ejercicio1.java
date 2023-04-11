@@ -1,4 +1,4 @@
-package guia5;
+package src.guia5;
 
 public class ejercicio1 {
 
