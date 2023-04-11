@@ -5,33 +5,33 @@ import java.util.Scanner;
 public class ejercicio14 {
     
     public static void main(String[] args) {
-        try (Scanner leer = new Scanner(System.in)) {
-            int totalEdad, edad, cantFamilias, cantHijos, cantTotalHijos;
-            float promedioEdad;
+        int totalEdad, edad, cantFamilias, cantHijos, cantTotalHijos;
+        float promedioEdad;
 
-            System.out.println("Ingrese la cantidad de familias:");
-            cantFamilias = leer.nextInt();
+        Scanner leer = new Scanner(System.in);
 
-            totalEdad = 0;
-            promedioEdad = 0;
-            cantTotalHijos = 0;
+        System.out.println("Ingrese la cantidad de familias:");
+        cantFamilias = leer.nextInt();
 
-            for (int i = 1; i <= cantFamilias; i++) {
-                System.out.println("Ingrese la cantidad de hijos de la familia " + i + ":");
-                cantHijos = leer.nextInt();
+        totalEdad = 0;
+        promedioEdad = 0;
+        cantTotalHijos = 0;
 
-                for (int j = 1; j <= cantHijos; j++) {
-                    System.out.println("Ingrese la edad del hijo " + j + ":");
-                    edad = leer.nextInt();
+        for (int i = 1; i <= cantFamilias; i++) {
+            System.out.println("Ingrese la cantidad de hijos de la familia " + i + ":");
+            cantHijos = leer.nextInt();
 
-                    totalEdad += edad;
-                    cantTotalHijos++;
-                }
+            for (int j = 1; j <= cantHijos; j++) {
+                System.out.println("Ingrese la edad del hijo " + j + ":");
+                edad = leer.nextInt();
+
+                totalEdad += edad;
+                cantTotalHijos++;
             }
-
-            promedioEdad = totalEdad / cantTotalHijos;
-
-            System.out.println("El promedio de la edad de todos los hijos es: " + promedioEdad);
         }
+
+        promedioEdad = totalEdad / cantTotalHijos;
+
+        System.out.println("El promedio de la edad de todos los hijos es: " + promedioEdad);
     }
 }

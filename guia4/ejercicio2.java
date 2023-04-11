@@ -7,20 +7,19 @@ public class ejercicio2 {
     public static void main(String[] args) {
         int n;
 
-        try (Scanner leer = new Scanner(System.in)) {
+        Scanner leer = new Scanner(System.in);
 
-            System.out.println("Ingrese la cantidad de personas a cargar:");
-            n = leer.nextInt();
+        System.out.println("Ingrese la cantidad de personas a cargar:");
+        n = leer.nextInt();
 
-            leer.nextLine(); // Consumir el final de linea del int para que el nextLine() siguiente no de error
+        leer.nextLine(); // Consumir el final de linea del int para que el nextLine() siguiente no de error
 
-            String[] nombre = new String[n];
-            int[] edad = new int[n];
+        String[] nombre = new String[n];
+        int[] edad = new int[n];
 
-            InicializarDatos(nombre, edad);
-            CargarDatos(nombre, edad, leer);
-            MostrarDatos(nombre, edad);
-        }
+        InicializarDatos(nombre, edad);
+        CargarDatos(nombre, edad, leer);
+        MostrarDatos(nombre, edad);
     }
 
     public static void InicializarDatos(String[] name, int[] age) {

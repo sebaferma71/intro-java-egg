@@ -7,17 +7,16 @@ public class ejercicio1 {
     public static void main(String[] args) {
         int tiempo, dias, horas;
 
-        try (Scanner leer = new Scanner(System.in)) {
-            System.out.println("Ingrese el tiempo en minutos:");
-            tiempo = leer.nextInt();
-            
-            dias = tiempo / 1440;
-            tiempo = tiempo % 1440;
+        Scanner leer = new Scanner(System.in);
+        System.out.println("Ingrese el tiempo en minutos:");
+        tiempo = leer.nextInt();
 
-            horas = tiempo / 60;
-            tiempo = tiempo % 60;
+        dias = tiempo / 1440;
+        tiempo = tiempo % 1440;
 
-            System.out.println(dias + " dias, " + horas + " horas, " + tiempo + " minutos");
-        }
+        horas = tiempo / 60;
+        tiempo = tiempo % 60;
+
+        System.out.println(dias + " dias, " + horas + " horas, " + tiempo + " minutos");
     }
 }

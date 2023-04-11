@@ -83,61 +83,60 @@ public class Juego {
     }
 
     public void iniciar_juego() {
-        try (Scanner leer = new Scanner(System.in)) {
-            this.setJugador1("Sebastian");
-            this.setJugador2("Matias");
-            this.setIntentos(5);
+        Scanner leer = new Scanner(System.in);
+        this.setJugador1("Sebastian");
+        this.setJugador2("Matias");
+        this.setIntentos(5);
+
+        do {
+            Core.clearScreen();
+
+            System.out.println(this.jugador1 + " elige un numero para que " + this.jugador2 + " adivine:");
+            this.numero = leer.nextInt();
+
+            Core.clearScreen();
+            this.contIntentos = 0;
+            this.ganar = false;
 
             do {
-                Core.clearScreen();
-                
-                System.out.println(this.jugador1 + " elige un numero para que " + this.jugador2 + " adivine:");
-                this.numero = leer.nextInt();
-
-                Core.clearScreen();
-                this.contIntentos = 0;
-                this.ganar = false;
-
-                do {
-                    this.contIntentos++;
-                    System.out.print("Prueba suerte: ");
-                    this.prueba = leer.nextInt();
-                    if (this.prueba < this.numero) {
-                        System.out.println("El numero es mas alto");
-                    }
-                    else if (this.prueba > this.numero) {
-                        System.out.println("El numero es mas bajo");
-                    }
-                    else {
-                        this.ganar = true;
-                    }
-                } while (this.ganar == false && this.contIntentos < this.intentos);
-                
-                if (this.ganar == true) {
-                    this.ganaJ2 += 1;
+                this.contIntentos++;
+                System.out.print("Prueba suerte: ");
+                this.prueba = leer.nextInt();
+                if (this.prueba < this.numero) {
+                    System.out.println("El numero es mas alto");
+                }
+                else if (this.prueba > this.numero) {
+                    System.out.println("El numero es mas bajo");
                 }
                 else {
-                    this.ganaJ1 += 1;
+                    this.ganar = true;
                 }
+            } while (this.ganar == false && this.contIntentos < this.intentos);
 
-                Core.clearScreen();
+            if (this.ganar == true) {
+                this.ganaJ2 += 1;
+            }
+            else {
+                this.ganaJ1 += 1;
+            }
 
-                if (this.getGanar() == true) {
-                    System.out.println("Ganaste!");
-                }
-                else {
-                    System.out.println("Perdiste!");
-                }
+            Core.clearScreen();
 
-                System.out.println("El jugador 1 gano: " + this.getGanaJ1());
-                System.out.println("El jugador 2 gano: " + this.getGanaJ2());
+            if (this.getGanar() == true) {
+                System.out.println("Ganaste!");
+            }
+            else {
+                System.out.println("Perdiste!");
+            }
 
-                System.out.println();
-                System.out.println("¿Queres jugar de nuevo? (S/N)");
-                do {
-                    this.seguir = leer.nextLine().toUpperCase();
-                } while (!this.seguir.equals("S") && !this.seguir.equals("N"));
-            } while (this.seguir.equals("S"));
-        }
+            System.out.println("El jugador 1 gano: " + this.getGanaJ1());
+            System.out.println("El jugador 2 gano: " + this.getGanaJ2());
+
+            System.out.println();
+            System.out.println("¿Queres jugar de nuevo? (S/N)");
+            do {
+                this.seguir = leer.nextLine().toUpperCase();
+            } while (!this.seguir.equals("S") && !this.seguir.equals("N"));
+        } while (this.seguir.equals("S"));
     }
 }

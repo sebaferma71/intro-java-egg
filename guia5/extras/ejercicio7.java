@@ -7,16 +7,15 @@ public class ejercicio7 {
     public static void main(String[] args) {
         int n;
 
-        try (Scanner leer = new Scanner(System.in)) {
+        Scanner leer = new Scanner(System.in);
 
-            System.out.println("Ingrese el valor de N para la serie:");
-            n = leer.nextInt();
+        System.out.println("Ingrese el valor de N para la serie:");
+        n = leer.nextInt();
 
-            int[] vector = new int[n];
+        int[] vector = new int[n];
 
-            Fibonacci(vector);
-            MostrarVector(vector);
-        }
+        Fibonacci(vector);
+        MostrarVector(vector);
     }
 
     public static void Fibonacci(int[] sucesion) {

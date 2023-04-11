@@ -5,20 +5,20 @@ import java.util.Scanner;
 public class ejercicio11 {
     
     public static void main(String[] args) {
-        try (Scanner leer = new Scanner(System.in)) {
-            int num, cant;
+        int num, cant;
 
-            System.out.println("Ingrese un numero:");
-            num = leer.nextInt();
+        Scanner leer = new Scanner(System.in);
 
-            cant = 0;
+        System.out.println("Ingrese un numero:");
+        num = leer.nextInt();
 
-            do {
-                num /= 10;
-                cant++;
-            } while (num != 0);
+        cant = 0;
 
-            System.out.println("El numero posee " + cant + " caracteres");
-        }
+        do {
+            num /= 10;
+            cant++;
+        } while (num != 0);
+
+        System.out.println("El numero posee " + cant + " caracteres");
     }
 }
