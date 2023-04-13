@@ -4,11 +4,72 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="405e8572-d15a-4f68-8f2d-e007c88c82bd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="55daf2a5-682d-45be-b6ac-3e847c5e0c85" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/intro-java-egg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/intro-java-egg.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia2/ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia2/ejercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia2/ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia2/ejercicio2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia2/ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia2/ejercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia2/ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia2/ejercicio4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia2/ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia2/ejercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/ejercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/ejercicio2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/ejercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/ejercicio4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/ejercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/ejercicio6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/ejercicio6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/ejercicio7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/ejercicio7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/ejercicio8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/ejercicio8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/extras/ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/extras/ejercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/extras/ejercicio10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/extras/ejercicio10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/extras/ejercicio11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/extras/ejercicio11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/extras/ejercicio12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/extras/ejercicio12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/extras/ejercicio13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/extras/ejercicio13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/extras/ejercicio14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/extras/ejercicio14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/extras/ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/extras/ejercicio2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/extras/ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/extras/ejercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/extras/ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/extras/ejercicio4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/extras/ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/extras/ejercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/extras/ejercicio6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/extras/ejercicio6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/extras/ejercicio7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/extras/ejercicio7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/extras/ejercicio8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/extras/ejercicio8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia3/extras/ejercicio9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia3/extras/ejercicio9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia4/ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia4/ejercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia4/ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia4/ejercicio2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia4/ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia4/ejercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia4/ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia4/ejercicio4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia5/ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia5/ejercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia5/ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia5/ejercicio2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia5/ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia5/ejercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia5/ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia5/ejercicio4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia5/ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia5/ejercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia5/ejercicio6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia5/ejercicio6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia5/extras/ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia5/extras/ejercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia5/extras/ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia5/extras/ejercicio2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia5/extras/ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia5/extras/ejercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia5/extras/ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia5/extras/ejercicio4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia5/extras/ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia5/extras/ejercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia5/extras/ejercicio6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia5/extras/ejercicio6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia5/extras/ejercicio7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia5/extras/ejercicio7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/ejercicio1/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/ejercicio1/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/ejercicio1/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/ejercicio1/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/ejercicio2/Circunferencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/ejercicio2/Circunferencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/ejercicio2/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/ejercicio2/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/ejercicio3/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/ejercicio3/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/ejercicio3/Operacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/ejercicio3/Operacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/ejercicio4/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/ejercicio4/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/ejercicio4/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/ejercicio4/Rectangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/extras/ejercicio1/Cancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/extras/ejercicio1/Cancion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/extras/ejercicio2/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/extras/ejercicio2/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/extras/ejercicio2/Puntos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/extras/ejercicio2/Puntos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/extras/ejercicio3/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/extras/ejercicio3/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/extras/ejercicio3/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/extras/ejercicio3/Juego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/extras/ejercicio4/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/extras/ejercicio4/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/extras/ejercicio4/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/extras/ejercicio4/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/extras/ejercicio5/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/extras/ejercicio5/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/extras/ejercicio5/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/extras/ejercicio5/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/extras/ejercicio6/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/extras/ejercicio6/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia7/extras/ejercicio6/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia7/extras/ejercicio6/Rectangulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +82,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2OHd8o1a9qRlrCqf9WAjU2Yf4O4" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2OLcSjRbLaM5q7cJ98mnUfs8vsu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,42 +93,30 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "G:/Mi unidad/Programacion Full Stack Egg/2° Introduccion a Java/ejercicios/intro-java-egg",
     "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="405e8572-d15a-4f68-8f2d-e007c88c82bd" name="Changes" comment="" />
-      <created>1681221286266</created>
+      <changelist id="55daf2a5-682d-45be-b6ac-3e847c5e0c85" name="Changes" comment="" />
+      <created>1681343305140</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1681221286266</updated>
-      <workItem from="1681221287439" duration="1589000" />
-      <workItem from="1681223052580" duration="4000" />
-      <workItem from="1681241033183" duration="632000" />
-      <workItem from="1681241677982" duration="590000" />
-      <workItem from="1681328921100" duration="9000" />
-      <workItem from="1681330233702" duration="39000" />
-      <workItem from="1681335845099" duration="396000" />
-      <workItem from="1681337098013" duration="41000" />
-      <workItem from="1681337273327" duration="219000" />
-      <workItem from="1681341233395" duration="18000" />
-      <workItem from="1681341301160" duration="81000" />
+      <updated>1681343305140</updated>
+      <workItem from="1681343307673" duration="887000" />
     </task>
     <servers />
   </component>

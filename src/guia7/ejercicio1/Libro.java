@@ -1,4 +1,4 @@
-package src.guia7.ejercicio1;
+package guia7.ejercicio1;
 
 public class Libro {
     

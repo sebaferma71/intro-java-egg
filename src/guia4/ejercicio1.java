@@ -1,4 +1,4 @@
-package src.guia4;
+package guia4;
 
 import java.util.Scanner;
 
@@ -31,41 +31,37 @@ public class ejercicio1 {
             leer.nextLine(); // Consumir el final de linea del int para que el nextLine() siguiente no de error
 
             switch (opcion) {
-                case 1:
+                case 1 -> {
                     clearScreen();
                     System.out.println("La suma es: " + Suma(num1, num2));
-                    break;
-                case 2:
+                }
+                case 2 -> {
                     clearScreen();
                     System.out.println("La resta es: " + Resta(num1, num2));
-                    break;
-                case 3:
+                }
+                case 3 -> {
                     clearScreen();
                     System.out.println("La multiplicacion es: " + Multiplicacion(num1, num2));
-                    break;
-                case 4:
+                }
+                case 4 -> {
                     clearScreen();
                     System.out.println("La division es: " + Division(num1, num2));
-                    break;
-                case 5:
+                }
+                case 5 -> {
                     clearScreen();
                     System.out.println("¿Seguro desea salir? S/N");
-                    do {
-                        rta = leer.nextLine().toUpperCase().charAt(0);
-                    } while (rta == 'S' && rta == 'N');
-
+                    rta = leer.nextLine().toUpperCase().charAt(0);
                     if (rta == 'S') {
                         clearScreen();
                         System.out.println("Saliendo...");
-                    }
-                    else {
+                    } else {
                         opcion = 0;
                     }
-                    break;
-                default:
+                }
+                default -> {
                     clearScreen();
                     System.out.println("Opcion no valida");
-                    break;
+                }
             }
         }
     }
