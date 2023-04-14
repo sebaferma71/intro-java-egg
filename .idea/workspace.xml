@@ -5,22 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55daf2a5-682d-45be-b6ac-3e847c5e0c85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guia8/ejercicio3/Core.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guia8/ejercicio3/entidades/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guia8/ejercicio3/servicios/PersonaServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio1/Core.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/Core.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio1/entidades/Raices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio1/servicios/RaicesServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/entidades/NIF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/servicios/NIFService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio1/Core.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio1/Core.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio1/servicios/CuentaBancariaServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio1/servicios/CuentaBancariaServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio2/Core.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio2/Core.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio2/entidades/Cafetera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio2/entidades/Cafetera.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio2/servicios/CafeteraServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio2/servicios/CafeteraServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guia8/ejercicio1/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/ejercicio1/Core.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guia8/ejercicio1/servicios/CuentaBancariaServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/ejercicio1/servicios/CuentaBancariaServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guia8/ejercicio2/entidades/Cafetera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/ejercicio2/entidades/Cafetera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guia8/ejercicio2/servicios/CafeteraServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/ejercicio2/servicios/CafeteraServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia8/extras/ejercicio1/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio1/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/Core.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,25 +43,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,7 +72,8 @@
       <updated>1681343305140</updated>
       <workItem from="1681343307673" duration="942000" />
       <workItem from="1681467176785" duration="401000" />
-      <workItem from="1681467590050" duration="10826000" />
+      <workItem from="1681467590050" duration="12054000" />
+      <workItem from="1681499925188" duration="5657000" />
     </task>
     <servers />
   </component>
