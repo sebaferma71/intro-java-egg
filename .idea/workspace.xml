@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55daf2a5-682d-45be-b6ac-3e847c5e0c85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/guia8/ejercicio1/Core.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guia8/ejercicio1/entidades/CuentaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guia8/ejercicio1/servicios/CuentaBancariaServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guia8/ejercicio2/Core.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guia8/ejercicio2/entidades/Cafetera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guia8/ejercicio2/servicios/CafeteraServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio1/Core.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio1/Core.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio1/servicios/CuentaBancariaServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio1/servicios/CuentaBancariaServices.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -68,7 +71,7 @@
       <updated>1681343305140</updated>
       <workItem from="1681343307673" duration="942000" />
       <workItem from="1681467176785" duration="401000" />
-      <workItem from="1681467590050" duration="2063000" />
+      <workItem from="1681467590050" duration="5124000" />
     </task>
     <servers />
   </component>
