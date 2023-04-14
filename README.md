@@ -10,3 +10,4 @@
   - Guía 5: "Arreglos en Java".
   - Guía 6: "Git con Github 2".
   - Guía 7: "POO".
+  - Guía 8: "Clase de servicio".
