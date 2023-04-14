@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55daf2a5-682d-45be-b6ac-3e847c5e0c85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guia8/ejercicio2/Core.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guia8/ejercicio2/entidades/Cafetera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guia8/ejercicio2/servicios/CafeteraServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guia8/ejercicio3/Core.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guia8/ejercicio3/entidades/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guia8/ejercicio3/servicios/PersonaServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio1/Core.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/Core.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio1/Core.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio1/Core.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio1/servicios/CuentaBancariaServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio1/servicios/CuentaBancariaServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio2/Core.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio2/Core.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio2/entidades/Cafetera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio2/entidades/Cafetera.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio2/servicios/CafeteraServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/intro-java-egg/guia8/ejercicio2/servicios/CafeteraServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia8/ejercicio1/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/ejercicio1/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia8/ejercicio1/servicios/CuentaBancariaServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/ejercicio1/servicios/CuentaBancariaServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia8/ejercicio2/entidades/Cafetera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/ejercicio2/entidades/Cafetera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia8/ejercicio2/servicios/CafeteraServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/ejercicio2/servicios/CafeteraServices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +80,22 @@
       <updated>1681343305140</updated>
       <workItem from="1681343307673" duration="942000" />
       <workItem from="1681467176785" duration="401000" />
-      <workItem from="1681467590050" duration="5124000" />
+      <workItem from="1681467590050" duration="10826000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/guia8/ejercicio3/entidades/Persona.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -9,6 +9,7 @@ public class Core {
 
         CuentaBancariaServices.ingresarSaldo(cuenta, 5000);
         CuentaBancariaServices.retirarSaldo(cuenta, 1000);
+        CuentaBancariaServices.consultarSaldo(cuenta);
         CuentaBancariaServices.extraccionRapida(cuenta, 10000);
         CuentaBancariaServices.consultarDatos(cuenta);
     }

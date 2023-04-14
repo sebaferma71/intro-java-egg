@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class CuentaBancariaServices {
 
-    private static Scanner scanner = new Scanner(System.in);
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static CuentaBancaria crearCuentaBancaria() {
         System.out.print("Ingrese el número de cuenta: ");

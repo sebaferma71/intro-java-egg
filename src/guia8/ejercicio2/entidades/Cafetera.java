@@ -24,4 +24,9 @@ public class Cafetera {
     public void setCantidadActual(int cantidadActual) {
         this.cantidadActual = cantidadActual;
     }
+
+    @Override
+    public String toString() {
+        return "Cafetera{" + "capacidadMaxima=" + capacidadMaxima + ", cantidadActual=" + cantidadActual + '}';
+    }
 }
