@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55daf2a5-682d-45be-b6ac-3e847c5e0c85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio1/entidades/Raices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio1/servicios/RaicesServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/entidades/NIF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/servicios/NIFService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guia8/extras/ejercicio1/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio1/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia8/ejercicio1/servicios/CuentaBancariaServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/ejercicio1/servicios/CuentaBancariaServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia8/ejercicio2/servicios/CafeteraServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/ejercicio2/servicios/CafeteraServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia8/ejercicio3/servicios/PersonaServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/ejercicio3/servicios/PersonaServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia8/extras/ejercicio1/servicios/RaicesServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio1/servicios/RaicesServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/entidades/NIF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/entidades/NIF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/servicios/NIFService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/servicios/NIFService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,8 @@
       <workItem from="1681343307673" duration="942000" />
       <workItem from="1681467176785" duration="401000" />
       <workItem from="1681467590050" duration="12054000" />
-      <workItem from="1681499925188" duration="5657000" />
+      <workItem from="1681499925188" duration="5722000" />
+      <workItem from="1681563174580" duration="500000" />
     </task>
     <servers />
   </component>

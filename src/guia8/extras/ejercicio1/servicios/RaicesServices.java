@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class RaicesServices {
 
-    static final Scanner scanner = new Scanner(System.in);
+    static Scanner scanner = new Scanner(System.in);
 
     public static Raices crearFuncion() {
         System.out.print("Ingrese el valor de A: ");

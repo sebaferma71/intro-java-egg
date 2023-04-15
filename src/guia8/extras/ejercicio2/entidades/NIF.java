@@ -25,6 +25,10 @@ public class NIF {
         this.letra = letra;
     }
 
+    public String getNIF() {
+        return (dni + "-" + letra);
+    }
+
     @Override
     public String toString() {
         return "NIF{" + "dni=" + dni + ", letra=" + letra + '}';

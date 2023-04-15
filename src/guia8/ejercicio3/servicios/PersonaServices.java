@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class PersonaServices {
 
-    private static final Scanner scanner = new Scanner(System.in);
+    static Scanner scanner = new Scanner(System.in);
 
     public static Persona crearPersona() {
         System.out.print("Ingrese el nombre de la persona: ");

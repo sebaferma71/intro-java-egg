@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class CafeteraServices {
 
-    private static final Scanner scanner = new Scanner(System.in);
+    static Scanner scanner = new Scanner(System.in);
 
     public static Cafetera crearCafetera() {
         System.out.print("Ingrese la capacidad maxima de la cafetera: ");
