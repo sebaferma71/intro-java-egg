@@ -11,4 +11,4 @@
   - Guía 6: "Git con Github 2".
   - Guía 7: "POO".
   - Guía 8: "Clase de servicio".
-- Los ejercicios se encuentran en la carpeta "src". Dentro de la carpeta [src](https://github.com/sebafermanelli/intro-java-egg/tree/main/src) estan las respectivas guías con sus ejercicios de practica.
+- Los ejercicios se encuentran en la carpeta "src". Dentro de la carpeta `[src](https://github.com/sebafermanelli/intro-java-egg/tree/main/src)` estan las respectivas guías con sus ejercicios de practica.
