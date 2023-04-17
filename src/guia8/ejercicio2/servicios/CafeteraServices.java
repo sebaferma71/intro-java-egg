@@ -11,7 +11,7 @@ public class CafeteraServices {
     public static Cafetera crearCafetera() {
         System.out.print("Ingrese la capacidad maxima de la cafetera: ");
         int capacidadMaxima = scanner.nextInt();
-        System.out.print("Ingrese la cantidad actual del cafe que contiene: ");
+        System.out.print("Ingrese la cantidad actual que contiene la cafetera: ");
         int cantidadActual = scanner.nextInt();
         System.out.println("Creando la cafetera...");
         return new Cafetera(capacidadMaxima, cantidadActual);
@@ -28,10 +28,10 @@ public class CafeteraServices {
         }
         cafetera.setCantidadActual(cafetera.getCantidadActual() - cantidad);
         if (cantidad != 0) {
-            System.out.println("Se ha servido una taza con " + cantidad + "gr de cafe");
+            System.out.println("Se ha servido una taza con " + cantidad + "ml de cafe");
         }
         else {
-            System.out.println("No hay cafe para servir");
+            System.out.println("No hay agua para servir cafe");
         }
     }
 
@@ -45,6 +45,6 @@ public class CafeteraServices {
             cantidad = (cafetera.getCapacidadMaxima() - cafetera.getCantidadActual());
         }
         cafetera.setCantidadActual(cafetera.getCantidadActual() + cantidad);
-        System.out.println("Se ha agregado cafe a la cafetera, actualmente tiene: " + cafetera.getCantidadActual() + "gr");
+        System.out.println("Se ha agregado agua a la cafetera, actualmente tiene: " + cafetera.getCantidadActual() + "ml");
     }
 }

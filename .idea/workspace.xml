@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="55daf2a5-682d-45be-b6ac-3e847c5e0c85" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guia8/ejercicio1/servicios/CuentaBancariaServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/ejercicio1/servicios/CuentaBancariaServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/guia8/ejercicio2/servicios/CafeteraServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/ejercicio2/servicios/CafeteraServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guia8/ejercicio3/servicios/PersonaServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/ejercicio3/servicios/PersonaServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guia8/extras/ejercicio1/servicios/RaicesServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio1/servicios/RaicesServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/Core.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/entidades/NIF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/entidades/NIF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/servicios/NIFService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/extras/ejercicio2/servicios/NIFService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,22 +68,13 @@
       <workItem from="1681467176785" duration="401000" />
       <workItem from="1681467590050" duration="12054000" />
       <workItem from="1681499925188" duration="5722000" />
-      <workItem from="1681563174580" duration="500000" />
+      <workItem from="1681563174580" duration="1217000" />
+      <workItem from="1681651500922" duration="3000" />
+      <workItem from="1681758999091" duration="2307000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/guia8/ejercicio3/entidades/Persona.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
