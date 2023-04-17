@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="55daf2a5-682d-45be-b6ac-3e847c5e0c85" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guia8/ejercicio2/servicios/CafeteraServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guia8/ejercicio2/servicios/CafeteraServices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +70,7 @@
       <workItem from="1681563174580" duration="1217000" />
       <workItem from="1681651500922" duration="3000" />
       <workItem from="1681758999091" duration="2307000" />
+      <workItem from="1681761830700" duration="1014000" />
     </task>
     <servers />
   </component>
