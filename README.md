@@ -1,7 +1,7 @@
 # Introducción a Java
 
 ## Ejercicios
-- Ejercicios de Java realizados en el curso de "Introducción a Java" dictado por Egg Cooperation.
+- Dentro de la carpeta [` src `](https://github.com/sebafermanelli/intro-java-egg/tree/main/src) estan los ejercicios de Java realizados en el curso de "Introducción a Java" dictado por Egg Cooperation.
 - Organizados por guía:
   - Guía 1: "Git con GitHub 1".
   - Guía 2: "Introducción a Java".
