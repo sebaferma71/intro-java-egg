@@ -31,11 +31,11 @@ public class Operacion {
     }
 
     public int sumar() {
-        return num1 + num2;
+        return this.num1 + this.num2;
     }
 
     public int restar() {
-        return num1 - num2;
+        return this.num1 - this.num2;
     }
 
     public int multiplicar() {
@@ -60,7 +60,7 @@ public class Operacion {
         System.out.println("Ingrese el primer numero para operar:");
         this.num1 = leer.nextInt();
 
-        System.out.println("Ingrese el primer numero para operar:");
+        System.out.println("Ingrese el segundo numero para operar:");
         this.num2 = leer.nextInt();
     }
 }
