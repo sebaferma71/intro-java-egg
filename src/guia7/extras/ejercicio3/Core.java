@@ -5,6 +5,7 @@ public class Core {
     public static void main(String[] args) {
         Juego juego1 = new Juego();
 
+        juego1.cargar_jugadores();
         juego1.iniciar_juego();
     }
 
