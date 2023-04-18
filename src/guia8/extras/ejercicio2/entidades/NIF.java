@@ -1,17 +1,17 @@
 package guia8.extras.ejercicio2.entidades;
 
 public class NIF {
-    int dni;
+    long dni;
     char letra;
 
     public NIF() {}
 
-    public NIF(int dni, char letra) {
+    public NIF(long dni, char letra) {
         this.dni = dni;
         this.letra = letra;
     }
 
-    public int getDni() {
+    public long getDni() {
         return dni;
     }
     public void setDni(int dni) {

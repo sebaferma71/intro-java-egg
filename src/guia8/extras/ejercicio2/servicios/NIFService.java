@@ -11,11 +11,11 @@ public class NIFService {
 
     public static NIF crearNif () {
         System.out.print("Ingrese el DNI: ");
-        int dni = scanner.nextInt();
+        long dni = scanner.nextLong();
 
-        int posID = dni % 23;
-        char id = letra[posID];
-        return new NIF(dni, id);
+        int posNIF = (int)(dni % 23);
+        char nif = letra[posNIF];
+        return new NIF(dni, nif);
     }
 
     public static void mostrarNif (NIF nif) {
